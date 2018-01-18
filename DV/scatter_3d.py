@@ -13,9 +13,9 @@ n = 6666
 f = lambda minval, maxval, n: minval + (maxval - minval) * np.random.rand(n)
 
 # 生成值
-x_vals = f(15, 41, n)
-y_vals = f(-10, 70, n)
-z_vals = f(-52, -37, n)
+x_vals = f(-20, 20, n)
+y_vals = f(-20, 20, n)
+z_vals = f(-20, -20, n)
 
 #画出值
 ax.scatter(x_vals, y_vals, z_vals, c='k', marker='o')
